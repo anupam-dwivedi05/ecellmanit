@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+.header-container{
+    background-color: #1E5AFA;
+    height: 95vh;
+}
+.navbar{
+    display: flex;
+   justify-content: space-evenly;
+    /* border: 2px solid black; */
+    gap: 250px;
+}
+.nav1 ul{
+    display: flex;
+    gap: 40px;
+   list-style-type: none;
+   color: white;
+   margin-top: 20px;
+
+}
+.nav2{
+    color: #FAFAFA;
+    margin-top: 15px;
+    margin-right: 180px;
+}
+.nav3{
+    display: flex;
+    gap: 20px;
+    margin-top: 20px;
+}
+.login{
+    background: none;
+    border: none;
+    color: white;
+}
+.signup{
+    background-color: white;
+    width: 100px;
+    padding: 9px;
+    color: black;
+    font-size: 15px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: ;
+}
+.heading1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    padding: 20px;
+}
+.line1{
+    color: white;
+    text-align: center;
+}
+.social-logo{
+    display: flex;
+    gap: 20px;
+    flex-direction: column;
+    padding-left: 50px;
+    padding-top: 210px;
+}
+.social-logo img{
+    width: 15px;
+}
+.hero-logo{
+    /* text-align: center; */
+    position: absolute;
+    left: 15vw;
+    top: 39vh;
+}
+.logo2{
+    position: relative;
+    text-align: center;
+    top: 40vh;
+}
+.about-us{
+    color:#313131;
+    position: relative;
+    top: 25vh;
+    text-align: center;
+    font-weight: 800;
+    font-size: 80px;
+}
+.phone-container{
+    /* border: 2px solid black; */
+    position: relative;
+    top: 7vh;
+    height: 2200px;
+}
+.phone1{
+    display: flex;
+}
+.phone1 img{
+    width: 60vw;
+}
+.phone1-content{
+    position: relative;
+    top: 40vh;
+    right: 20vh;
+}
+.phone1-content div{
+    font-weight: 800;
+    font-size: 60px;
+    color: #000F37;
+}
+.phone1-content p{
+    color: #575757;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.phone1-content button{
+    width: 135px;
+    padding: 15px;
+    background-color: #000F37;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+}
+
+.phone2{
+    display: flex;
+}
+.phone2 img{
+    position: relative;
+    bottom: 55vh;
+    width: 60vw;
+}
+.phone2-content{
+    position: relative;
+    top: -8vh;
+    left: 25vh;
+}
+.phone2-content div{
+    font-weight: 800;
+    font-size: 60px;
+    color: #000F37;
+}
+.phone2-content p{
+    color: #575757;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.phone2-content button{
+    width: 135px;
+    padding: 15px;
+    background-color: #000F37;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+}
+
+.phone3{
+    display: flex;
+    position: relative;
+    top: -760px;
+}
+.phone3 img{
+    width: 60vw;
+}
+.phone3-content{
+    position: relative;
+    top: 40vh;
+    right: 20vh;
+}
+.phone3-content div{
+    font-weight: 800;
+    font-size: 60px;
+    color: #000F37;
+}
+.phone3-content p{
+    color: #575757;
+    margin-top: 20px;
+    font-size: 20px;
+    line-height: 27px;
+}
+.phone3-content button{
+    width: 135px;
+    padding: 15px;
+    background-color: #000F37;
+    color: white;
+    border-radius: 5px;
+    border: none;
+    margin-top: 25px;
+}
+
+.client-container{
+    color: #313131;
+    position: relative;
+    top: -850px;
+    text-align: center;
+}
+.client-container h1{
+    font-size: 70px;
+}
+.client-container p{
+    color: #575757;
+    padding: 20px;
+}
+.testimonials-container{
+    position: relative;
+    text-align: center;
+    top: -800px;
+}
+.testimonials-container h1{
+    color: #313131;
+    font-size: 5vw;
+}
+.testimonials-container p{
+    color: #575757;
+    padding: 20px;
+}
+.upper-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+}
+.lower-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1vw;
+    margin-top: 1.5vh;
+}
+.card1{
+    width: 35vw;
+    text-align: left;
+    line-height: 30px;
+    height: 35vh;
+    padding: 8px;
+    background-color: #FFFFFF;
+}
+.cards{
+    width: 35vw;
+    text-align: left;
+    line-height: 30px;
+    height: 35vh;
+    padding: 8px;
+    background-color: #E7EBEE;
+    border: none;
+    border: 2px solid rgb(212, 211, 211);
+    border-radius: 5px;
+    /* animation: transform 5s ease-in-out; */
+}
+.cards img{
+    margin-left: 20px;
+}
+.cards p{
+    color: #575757;
+}
+/* .cards:hover{
+    transform: scale(1.1);
+    
+} */
+ .barriar{
+    text-align: center;
+    position: relative;
+    top: -730px;
+ }
+ .faq{
+    text-align: center;
+    position: relative;
+    top: -680px;
+    font-size: 3vw;
+ }
+.bars{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    position: relative;
+    top: -650px;
+}
+.bar1{
+    border: 2px solid #E7EBEE;
+    width: 35vw;
+    padding: 23px;
+    background-color: #FAFAFA;
+    border-radius: 15px;
+}
+.minus-div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   gap: 60px;
+    
+}
+.bar2 {
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    height: 25vh;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 5px gray;
+    padding: 20px;
+    border-radius: 10px;
+}
+.bar2-p{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    padding: 10px;
+}
+.down-container{
+    display: flex;
+    position: relative; 
+    top: -380px;
+}
+.download{
+    position: relative;
+    width: 50vw;
+    left: 12vw;
+}
+.download h1{
+    font-size: 4vw;
+}
+.download p{
+    width: 30vw;
+    margin-top: 20px;
+}
+.download img{
+    width: 18vw;
+    margin-top: 70px;
+    margin-left: -70px;
+}
+.temp{
+    position: relative;
+    top: -180px;
+    right: 10vw;
+}
+.update-container{
+    position: relative;
+    top: -630px;
+    display: flex;
+    background-color: #1E5AFA;
+    padding: 50px;
+    justify-content: space-evenly
+}
+.update{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.update h1{
+    color: #FDFDFF;
+    font-size: 3.5vw;
+}
+.update p{
+    color: #F5F2FF;
+}
+.update-container button{
+   width: 11vw;
+   padding: 15px;
+   background-color: #1E5AFA;
+   color: white;
+   border: 1px solid #FAFAFA;
+   border-radius: 5px;
+   margin-top: 10vh;
+   font-size: 1vw;
+   font-weight: 600;
+}
+.footer-container{
+    position: relative;
+    top: -550px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.cate-list{
+    margin-top: 35px;
+}
+.cate-list ul{
+    display: flex;
+    flex-direction: column;
+    list-style-type: none; 
+    gap: 15px;
+}
+.smart-home{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.input input{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: #E7EBEE;
+    border: 1px solid #E7EBEE;
+}
+.input button{
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #011037;
+}
+.footer{
+    position: relative;
+    top: -500px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #000F37;
+    color: #FAFAFA;
+    padding: 20px;
+}
+
